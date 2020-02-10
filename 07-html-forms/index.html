@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Users</title>
+  </head>
+  <body>
+    <h1>Create Users</h1>
+    <hr />
+    <form action="create-uers.html" method="get">
+      <label>Email:</label>
+      <input type="email" name="email" /><br />
+      <label>Username:</label>
+      <input type="text" name="username" /><br />
+      <label>Password:</label>
+      <input type="text" name="password" /><br />
+      <label>Bio:</label><br />
+      <textarea name="body"></textarea>
+
+      <form>
+        <fieldset>
+          <legend>interests</legend>
+          <label>Select your favourite hero</label>
+
+          <input type="radio" name="superhero" value="wonder woman" checked />
+          Wonder Woman
+          <input type="radio" name="superhero" value="batman" />
+          Batman
+          <input type="radio" name="superhero" value="superman" />
+          Superman
+          <input type="radio" name="superhero" value="thor" />
+          Thor
+          <input type="radio" name="superhero" value="flash" />
+          Flash
+          <br />
+          <label>Select your facourite video game</label>
+          <input type="checkbox" name="video game" value="fifa" checked />
+          Fifa
+          <input type="checkbox" name="video game" value="nhl" />
+          NHL
+          <input type="checkbox" name="video game" value="resident evil" />
+          RESIDENT EVIL
+          <input type="checkbox" name="video game" value="uncharted" checked />
+          Uncharted
+        </fieldset>
+      </form>
+      <input type="submit" value="create user" />
+    </form>
+    <button><a href="create-users.html">Create user</a></button>
+  </body>
+</html>
